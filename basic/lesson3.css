@@ -1,0 +1,19 @@
+/**div{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: blue;
+}*/
+
+
+/*属性选择器*/
+[id='only'] {
+	background-color: red !important;
+}
+.cl1 {
+	background-color: blue;
+}
+.cl2 {
+	width: 200px;
+	height: 200px;
+}
