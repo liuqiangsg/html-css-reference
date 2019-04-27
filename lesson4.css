@@ -1,0 +1,20 @@
+/*
+  父子选择器/派生选择器	
+*/
+div span{
+	background-color: red;
+}
+/*直接子元素选择器*/
+div > span{
+	background-color: green;
+}
+
+/*并列选择器*/
+div.demo {
+
+}
+/*标签选择器*/
+span{
+	/*background-color: red;*/
+	color: #ff0000;
+}

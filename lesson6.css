@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	 
+}
+
+/* class不能以数字开头 */
+
+.boderstyle{
+	width:100px; 
+	height:100px;
+	border-radius: 50%;
+	border:5px solid;
+}
+.wh1{
+	position: absolute;
+	border-color: red;
+}
+.wh2{
+	position: absolute;
+	left: 103px;
+	border-color: orange;
+}
+.wh3{
+	position: absolute;
+	left: 206px;
+	border-color: yellow;
+}
+.wh4{
+	position: absolute;
+	top:73px;
+	left:53px;
+	border-color: blue;
+}
+.wh5{
+	position: absolute;
+	top:73px;
+	left:156px;
+	border-color: black;
+}
+.center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -90px;
+}
+
+
+
+

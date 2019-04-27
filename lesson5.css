@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+span{
+	color: -webkit-link;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.demo1{
+	width: 100px;
+	height: 100px;
+	/*background-color: red;*/
+	border:10px solid;
+	border-radius: 50%;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -60px;
+	margin-top: -60px;
+}
