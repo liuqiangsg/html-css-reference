@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding:0;
+	font-family: arial;
+}
+
+.demo1{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000;
+}
+
+.demo2{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 1px solid #000;
+}
+
+.demo2c{
+	width:100px;
+	height:100px;
+	position: relative;
+	top: 0;
+	left: 0;	
+	border:1px solid green;
+}
