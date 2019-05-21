@@ -89,11 +89,13 @@ body {
 .taobaowang-pic{
 	display: inline-block;
 	width: 142px;
-	height: 80px;
+	height: 58px;
+	margin-top: 20px;
+	/*margin-left: 5px;*/
 }
 .taobaowang-pic .a-taobaowang-pic{
 	width: 142px;
-	height: 80px;
+	height: 100%;
 	display: inline-block;
 	background-image: url(http://img.alicdn.com/tfs/TB1UDHOcwoQMeJjy0FoXXcShVXa-286-118.png);
 	background-size: 100% 100%;
@@ -286,10 +288,11 @@ body {
 	width: 1190px;
 	height: 521px;
 	margin: 0 auto;
-	border: 1px solid #666;
 	margin-top: 15px;
-	border: 1px solid red;
+	border: 1px solid green;
+	border-left:none;
 }
+
 .ad-navigation-box .ad-left-box{
 	float: left;
 	width: 190px;
@@ -301,13 +304,130 @@ body {
 }
 .ad-navigation-box .ad-middle-box{
 	float: left;
-	width: 710px;
+	width: 690px;
 	height: 521px;
 	/*border: 1px solid #000;*/
 	margin: 0 10px;
 }
+.ad-navigation-box .ad-right-box{
+	float: right;
+	width: 284px;
+	height: 521px;
+	border: 1px solid #000;
+}
+.ad-right-box .arb-member{
+	width: 100%;
+	height: 132px;
+	/*border-bottom: 1px solid #000;*/
+	/*头像地址 https://wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=50&height=50&type=sns&_input_charset=UTF-8*/
+	/*background-image:url(); */
+
+}
+.arb-member .arbm-head{
+	width: 100%;
+	height: 91px;
+	/*border-bottom: 1px solid #000;*/
+	text-align: center;
+}
+.arbm-head  a.img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	/*border: 1px solid #000;*/
+	border-radius:50%; 
+	background-image: url(https://wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=50&height=50&type=sns&_input_charset=UTF-8);
+	background-size: 100% 100%;
+}
+.arbm-head  span{
+	display: block;
+	line-height: 18px;
+	height: 18px;
+	font-size: 12px;
+	/*border: 1px solid #000;*/
+	color: #3c3c3c;
+	padding-top: 2px;
+}
+ .arbm-head p{
+ 	height: 17px;
+ 	line-height: 17px;
+ 	font-size: 12px;
+}
+.arbm-head p a{
+	width: 90px;
+	height:17px;
+	color: #FF5000;
+	background-color: #FFE4DB;
+	padding: 0  8px;
+	border-radius: 9px;
+}
+.ad-right-box .arb-tab{
+	width: 100%;
+	height: 231px;
+	border: 1px solid #000;
+	margin-top:5px; 
+}
+.arb-member .arb-button-wrapper{
+	width: 100%;
+	height: 39px;
+	/*border: 1px solid  #ffe4db;*/
+	/*margin-top: 2px;*/
+	/*padding-left: 15px;*/
+	/*vertical-align: center;*/
+}
+
+.arb-msg a{
+	font-size: 12px;
+	color: #ff4400;
+}
+.arb-button-wrapper a{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 4px;
+	width: 75px;
+	font-size: 14px;
+	/*margin: 0 auto;*/
+	margin-right: 7px;
+	text-align: center;
+	background-image: linear-gradient(to right,#ff5000 0,#ff6f06 100%);
+	color: #FFF;
+	font-weight: 700;
+	/*padding-top: 3px;*/
+	margin-top: 7px;
+	margin-left: 4px;
+}
+.arb-button-wrapper a.login {
+	width: 92px;
+}
+.ad-right-box .arb-gougao{
+	width: 100%;
+	height: 100px;
+	border: 1px solid #000;
+	margin-top: 10px;
+}
+.ad-right-box .arb-msg{
+	width: 100%;
+	height: 26px;
+	/*border: 1px solid #000;*/
+	margin-top: 10px;
+	background-color: #ffe4dd;
+	line-height: 26px;
+	text-align: center;
+}
+/*.arb-msg .triangle{
+	/*position: absolute;*/
+    /*right: 52px;*/
+    /*top: 9px;*/
+	line-height: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-left: 32px;
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent #f40;
+}*/
 .ad-middle-box .amb-top{
-	width: 710px;
+	width: 700px;
 	height: 280px;
 	/*border: 1px solid #666;*/
 	/*background-color: #666;*/
@@ -364,12 +484,17 @@ body {
 	height: 192px;
 	background-size: 100% 100%;
 }
+.ambbt-ad-wrapper {
+	/*margin-top: 30px;*/
+}
 .ambb-tm .ambbt-ad-wrapper .ambbt-ad-pic1,
 .ambb-tm .ambbt-ad-wrapper .ambbt-ad-pic2{
+	/*position: relative;*/
 	width: 250px;
 	height: 192px;
 	/*border: 1px solid red;*/
 	float: left;
+	margin-top: 20px;
 	/*margin-right: 10px;*/
 }
 
@@ -390,6 +515,7 @@ body {
 	width: 100%;
 	height: 100%;
 	background-size: 100% 100%;
+	margin-top: 20px;
 
 }
 .ad-left-box .ad-left-box-content{
@@ -426,6 +552,7 @@ body {
 .ambb-tm-content{
 	height: 136px;
 	height: 19px;
+	display: block;
 	/*border: 1px solid red;*/
 
 }
@@ -434,7 +561,7 @@ body {
 }
 
 .header-line{
-
+	clear: both;
 	/*position: relative;*/
 	width: 1190px;
 	height: 99px;
